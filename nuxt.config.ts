@@ -24,7 +24,11 @@ export default defineNuxtConfig({
         path: '/',
         component: 'pages/index.vue',
       },
-      // Tambahkan rute lain jika diperlukan
+      {
+        name: 'about',
+        path: '/about',
+        component: 'components/About.vue',
+      }
     ],
   },
 })
